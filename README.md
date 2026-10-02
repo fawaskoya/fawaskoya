@@ -6,6 +6,14 @@ I'm a full-stack engineer who builds **operational software for real businesses*
 
 ---
 
+### ⭐ Flagship: [Royal Game of Ur](case-studies/royal-game-of-ur.md) · [play it](https://royalgameofur.app)
+
+<a href="case-studies/royal-game-of-ur.md"><img src="assets/royal-game-of-ur/02-game-vs-expert.png" alt="Royal Game of Ur" width="100%"></a>
+
+The world's oldest playable board game, rebuilt: a pure deterministic rules engine, a six-level expectimax AI that never cheats, whole games encoded in a 160-character URL, server-authoritative online rooms, Elo matchmaking, a daily puzzle and a cosmetics store. TypeScript monorepo · ~18.5k LOC · 155 tests. **[Read the case study →](case-studies/royal-game-of-ur.md)**
+
+---
+
 ### 🏢 Client systems
 
 These codebases belong to my clients, so the source is private. Each case study below covers the problem, the architecture, the data model and the engineering decisions. **I'm happy to walk through the code live in an interview.**
@@ -27,9 +35,8 @@ These codebases belong to my clients, so the source is private. Each case study 
 | Project | What it is |
 |---|---|
 | **[Student Workspace](https://github.com/fawaskoya/student-workspace)** | My private academic OS: a versioned timetable with PDF import and review, section-aware conflict detection, private-by-default file storage, and ICS export. *Next.js 16 · Prisma · Neon · Vercel Blob* |
-| **[Royal Game of Ur](https://github.com/fawaskoya/royal-game-of-ur)** · [play it](https://royalgameofur.app) | The world's oldest playable board game, rebuilt: a deterministic rules engine, an expectimax AI ladder that never cheats, online rooms, matchmaking, an Elo leaderboard, and a cosmetics store. A TypeScript monorepo. |
-| **[Trading Pit](https://github.com/fawaskoya/trading-pit)** | A live stock-market simulation for college fests. Teams trade on their phones as the organiser releases news each round. *Next.js · Supabase Realtime* |
-| **[One Pixel Off](https://github.com/fawaskoya/one-pixel-off)** | A spot-the-difference game with no backend. Puzzles are generated deterministically from seeds, with daily challenges that are the same for everyone. |
+| **[Trading Pit](case-studies/trading-pit.md)** · [code](https://github.com/fawaskoya/trading-pit) | A live stock-market simulation for college fests. Teams trade on their phones as the organiser releases news each round. *Next.js · Supabase Realtime* |
+| **[One Pixel Off](case-studies/one-pixel-off.md)** · [code](https://github.com/fawaskoya/one-pixel-off) | A spot-the-difference game with no backend. Puzzles are generated deterministically from seeds, with daily challenges that are the same for everyone. |
 | **[TaskFlow](https://github.com/fawaskoya/superlist-clone)** | A real-time collaborative task manager with workspaces and drag-and-drop. *Next.js · Prisma* |
 | **[Quran X Automation](https://github.com/fawaskoya/quran-x-automation)** | An agentic content pipeline: groups verses with Gemini, generates verse cards, and schedules posts to X, with Google Sheets as the control panel. |
 | **[Scroll Vault](https://github.com/fawaskoya/scroll_vault)** | A minimal, deterministic vault protocol on Scroll L2. *Solidity* |
